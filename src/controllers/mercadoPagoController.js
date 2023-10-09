@@ -118,7 +118,7 @@ mercadoPagoController.getPreferenceLink = async (req, res, next) => {
         'pending': config.frontendApplicationURL + '/pending',
         'failure': config.frontendApplicationURL + '/failure',
       },
-      'marketplace_fee': config.marketplaceFee,
+      'marketplace_fee': Number((config.marketplaceFee * (price * (+quantity ?? 1)) / 100)),
       'notification_url': config.thisApplicationURL + '/notifications'
 
       // Take a look at all the available fields:
