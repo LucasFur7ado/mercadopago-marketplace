@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'main';
+  src: url('/coolvetic.otf');
+}
+
+.button-like {
+  color: #111;
+  font-size: 20px;
+  margin-top: 5px;
+  transition: 300ms;
+  width: fit-content;
+  background: white;
+  border-radius: 50px;
+  padding: .5rem 2rem;
+  text-decoration: none;
+}
+
+.button-like:hover {
+  background-color: #777;
+  transition: 300ms;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 2rem;
+}
+
+.main-container {
+  margin: 0;
+  height: 100vh;
+  padding: 1rem;
+  display: flex;
+  color: white;
+  font-family: 'main';
+  align-items: start;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #111;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  width: 1.5rem;
+}
+
+.title-container {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.title {
+  color: #777;
+  font-size: 20px;
+}
+
+@media (min-width: 450px) {
+  .main-container {
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}

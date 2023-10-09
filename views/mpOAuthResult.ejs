@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <link rel='stylesheet' href='/globals.css' />
+  <title>Marketplace</title>
+</head>
+
+<body class='main-container'>
+  <main>
+    <% if (!success) {%>
+      <h1>Algo salió mal</h1>
+      <a class='button-like' href='http://localhost:5173/'>Volver</a>
+      <% } else { %>
+        <h1>Authenticación exitosa</h1>
+        <a class='button-like' href='http://localhost:5173/'>Ir a la app</a>
+        <% } %>
+  </main>
+</body>
+
+</html>
