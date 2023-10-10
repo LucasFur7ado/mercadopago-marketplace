@@ -195,3 +195,6 @@ Response:
     "success": true
 }
 ~~~
+<hr/>
+<br/>
+<a href="https://medium.com/@luc4sfur7ado/marketplace-con-mercado-pago-y-nodejs-9d82e2218b5c">Link al artículo</a> en el que explico el funcionamiento de un Marketplace con Mercado Pago.
